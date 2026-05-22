@@ -1,0 +1,1 @@
+whisper --device cuda --model large --language ru -f txt --output_dir ./transcriptions/ --task transcribe audio/bigdata_1.wav
